@@ -1,0 +1,22 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto realizado na semana NLW Together da RocketSeat - Missão Discover",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Paulo Cesar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
